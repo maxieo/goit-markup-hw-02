@@ -105,14 +105,19 @@ body {
 /* description */
 
 .description-title, .portfolio-title{
+    font-size: 14px;
     line-height: 1,14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 
     color: var(--primarly-black-color)
 }
 .description-text, .portfolio-text{
     font-weight: 400;
+    font-size: 14px;
     line-height: 1.71;
+
+    letter-spacing: 0.03em;
 
     color: var(--primarly-gray-color)
 }
@@ -124,6 +129,7 @@ body {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
+    letter-spacing: 0.03em;
 
     color: var(--primarly-black-color);
 }
@@ -134,14 +140,16 @@ body {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
+    letter-spacing: 0.03em;
 
     color: var(--primarly-black-color)
 }
 .team-name {
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-
+    
     color: var(--primarly-black-color)
 }
 .team-text {
@@ -156,7 +164,10 @@ body {
     font-family:inherit;
     font-style: normal;
     font-weight: 400;
+    font-size: 14px;
     line-height: 1.71px;
+    
+    letter-spacing: 0.03em;
     
     color: var(--primarly-white-color)
 }
@@ -169,7 +180,10 @@ footer {
     font-family:inherit;
     font-style: normal;
     font-weight: 400;
+    font-size: 14px;
     line-height: 1.71px;
+    
+    letter-spacing: 0.03em;
     
     color: var(--primarly-gray-color)
 }
