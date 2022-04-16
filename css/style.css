@@ -1,26 +1,28 @@
 :root {
-    --main-header-color: #212121;
-    --second-header-color:#757575;
+    --primarly-black-color: #212121;
+    --primarly-gray-color:#757575;
     --hero-color:#2F303A;
-    --main-title-color:#FFFFFF;
-    --main-btn-color:#FFFFFF;
-    --second-btn-color:#212121;
+    --primarly-white-color:#FFFFFF;
     --accent-color:#2196F3;
 
 }
 
 body {
     font-family: 'Roboto',Tahoma,sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    color: var(--primarly-black-color);
+    background-color: var(--primarly-white-color);
     
 }
 .list {
     list-style: none;
 }
-.link,.logo,.footer-adress{
+.link{
     text-decoration: none;
 }
 .logo-span {
-    color: var(--main-header-color)
+    color: var(--primarly-black-color)
 }
 
 .visually-hidden {
@@ -47,35 +49,29 @@ body {
     color:var(--accent-color)
 }
 
-.header-list {
+.header-link,.header-contacts {
+    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: var(--main-header-color)
+    color: var(--primarly-black-color)
 }
 
-.header-link:hover {
-    color:var(--main-header-color)
-}
+.header-link:hover,
 .header-link:focus {
-    color:var(--main-header-color)
+    color:var(--accent-color)
 }
 
 .header-contacts{
-    font-family:inherit;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-
-    color: var(--main-header-color)
+    color: var(--primarly-black-color)
 }
 .header-contacts:hover,
 .header-contacts:focus,
 .footer-contacts:hover,
-.footer-contacts:focus {
+.footer-contacts:focus,
+.current {
     color:var(--accent-color)
 }
 
@@ -86,19 +82,15 @@ body {
     font-size: 16px;
     line-height: 1.87;
 
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-
-    color: var(--main-btn-color)
+    color: var(--primarly-white-color);
+    cursor: pointer;
 }
 
 .hero{
     background-color:var(--hero-color) ;
 }
 .hero-title {
-    font-family:inherit
+    font-family:inherit;
     font-weight: 900;
     font-size: 44px;
     line-height: 1,36;
@@ -106,7 +98,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color:var(--main-title-color)
+    color:var(--primarly-white-color);
 
 }
 
@@ -118,7 +110,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: var(--main-header-color)
+    color: var(--primarly-black-color)
 }
 .description-text, .portfolio-text{
     font-weight: 400;
@@ -127,7 +119,7 @@ body {
 
     letter-spacing: 0.03em;
 
-    color: var(--second-header-color)
+    color: var(--primarly-gray-color)
 }
 
 
@@ -139,7 +131,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: var(--main-header-color);
+    color: var(--primarly-black-color);
 }
 
 /* team */
@@ -150,7 +142,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: var(--main-header-color)
+    color: var(--primarly-black-color)
 }
 .team-name {
 
@@ -158,17 +150,17 @@ body {
     font-size: 16px;
     line-height: 1.18;
     
-    color: var(--main-header-color)
+    color: var(--primarly-black-color)
 }
 .team-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18px;
-    color: var(--second-header-color)
+    color: var(--primarly-gray-color)
 }
 
 /* footer */
-.footer-adress, .footer-contacts{
+.footer-adress{
     font-family:inherit;
     font-style: normal;
     font-weight: 400;
@@ -177,12 +169,38 @@ body {
     
     letter-spacing: 0.03em;
     
-    color: var(--second-header-color)
-    /* цвет адресса отличаеться от того что есть в фигме,
-    посколку он сливаеться с фоном сайта */
+    color: var(--primarly-white-color)
+}
+
+footer {
+    background-color: var(--hero-color);
+}
+.footer-contacts,
+.footer-adress {
+    font-family:inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--primarly-gray-color)
+}
+.footer-adress {
+    color: var(--primarly-white-color);
 }
 
 /* portfolio */
-.portfolio-btn,.hero-btn {
+.portfolio-btn{
     cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--primarly-white-color)
+}
+.portfolio-btn.current{
+    background-color: var(--accent-color);
+    color: var(--primarly-white-color);
 }
