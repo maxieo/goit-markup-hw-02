@@ -10,7 +10,7 @@
 body {
     font-family: 'Roboto',Tahoma,sans-serif;
     font-size: 14px;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.03em;
     color: var(--primarly-black-color);
     background-color: var(--primarly-white-color);
     
@@ -48,7 +48,6 @@ body {
     font-size: 26px;
     line-height: 31px;
 
-    letter-spacing: 0.03em;
     color:var(--accent-color)
 }
 
@@ -109,7 +108,7 @@ body {
 .description-title, .portfolio-title{
     font-size: 18px;
     line-height: 1,14;
-    letter-spacing: 0.03em;
+
     text-transform: uppercase;
 
     color: var(--primarly-black-color)
@@ -119,7 +118,7 @@ body {
     font-size: 16px;
     line-height: 1.71;
 
-    letter-spacing: 0.03em;
+
 
     color: var(--primarly-gray-color)
 }
@@ -131,7 +130,6 @@ body {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    letter-spacing: 0.03em;
 
     color: var(--primarly-black-color);
 }
@@ -142,7 +140,6 @@ body {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    letter-spacing: 0.03em;
 
     color: var(--primarly-black-color)
 }
@@ -151,7 +148,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;
 
     color: var(--primarly-black-color)
 }
@@ -159,7 +155,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18px;
-    letter-spacing: 0.03em;
     color: var(--primarly-gray-color)
 }
 
@@ -170,7 +165,6 @@ body {
     font-weight: 400;
     line-height: 1.71px;
     
-    letter-spacing: 0.03em;
     
     color: var(--primarly-white-color)
 }
@@ -185,7 +179,6 @@ footer {
     font-weight: 400;
     line-height: 1.71px;
     
-    letter-spacing: 0.03em;
     
     color: var(--primarly-gray-color)
 }
